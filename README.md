@@ -5,3 +5,4 @@
 choicePoints = ginput(3)  
 
 主要使用opencv的图层叠加/仿射变换/以及ROI
+主要源文件在__init__.py下,其他是一些零散的代码
