@@ -4,3 +4,4 @@
 //注意是点击三次但只处理前两次点击
 choicePoints = ginput(3)  
 
+主要使用opencv的图层叠加/仿射变换/以及ROI
