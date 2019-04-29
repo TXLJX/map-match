@@ -1,8 +1,9 @@
 # map-match
-在两幅地理图片上各选两点
-利用选定的点来处理可能的旋转以及图形精度的问题
-//注意是点击三次但只处理前两次点击
-choicePoints = ginput(3)  
+##Based on two pairs of image matching, select two points on each of the two geographic images
 
-主要使用opencv的图层叠加/仿射变换/以及ROI
-主要源文件在__init__.py下,其他是一些零散的代码
+Use selected points to handle possible rotations as well as graphics precision, s scaling issues
+
+//Note that it is three clicks but only the first two clicks
+choicePoints = ginput(3)
+
+I also added some code for the SIFI algorithm.
